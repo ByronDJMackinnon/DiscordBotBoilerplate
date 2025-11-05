@@ -4,6 +4,8 @@ import discord
 from discord.ext import commands
 from discord import app_commands
 
+from utils import Database
+
 class TestCog(commands.Cog):
     """Cog to contain all of the Test commands for organizational purposes. """
     def __init__(self, bot):

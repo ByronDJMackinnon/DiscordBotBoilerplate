@@ -1,6 +1,15 @@
 """This holds all sensitive data."""
-TOKEN = "TOKEN"
+# This could be used to store any data that needed to be accessed globally, and never changed. For example:
 
-CLIENT_ID = 1234567890987654321
-CLIENT_SECRET = "1aaAA_1AA-A-1a1aA1A1AaaAAAAaA1aa"
-PUBLIC_KEY = "111a1aaaaaa1a1a11111a11aaaaa11aaaaa111111111aaaaaaa111a11a1aaaa1"
+class Colors: # Perhaps color values for discord embeds/containers
+    success = 0x00ff00
+    fail = 0xff0000
+    caution = 0xf09900
+    info = 0x00ffff
+
+class Emoji: # Emoji's the bot frequently used
+    checkmark = "✅"
+    cross = "❌"
+    star = "⭐"
+
+# etc...
